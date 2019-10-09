@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/calorgrey"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
     <LinearLayout
@@ -16,6 +16,7 @@
 
         <!--    Kotak(keseluruhan)-->
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -69,6 +70,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -122,6 +124,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -175,6 +178,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -187,7 +191,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="10dp">
-
                 <ImageView
 
                     android:layout_width="match_parent"
@@ -229,6 +232,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -283,6 +287,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -336,6 +341,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="Detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
