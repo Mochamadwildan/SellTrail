@@ -14,9 +14,9 @@
 
         <ImageView
             android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/crf"/>
+            android:id="@+id/detailgambar"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 
     <ScrollView
@@ -29,9 +29,9 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:id="@+id/judul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Honda CRF 250 cc"
                 android:textSize="20dp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -43,7 +43,6 @@
                 android:text="lol"
                 android:id="@+id/deskripsi"
                 android:layout_margin="10dp"
-
                 />
 
         </LinearLayout>

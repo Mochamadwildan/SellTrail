@@ -70,7 +70,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -124,7 +124,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -178,7 +178,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -232,7 +232,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -287,7 +287,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -341,7 +341,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="Detail"
+            android:onClick="Detail6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"

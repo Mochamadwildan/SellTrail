@@ -13,12 +13,25 @@ import com.example.selltrail.fragments.ReviewFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DetailActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
-
+    DetailFragment detailFragment;
+    ReviewFragment reviewFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        loadFragment(new DetailFragment());
+
+        detailFragment=new DetailFragment();
+        Bundle args = new Bundle();
+        args.putString("Judul", getIntent().getExtras().getString("Judul"));
+        args.putString("Code", getIntent().getExtras().getString("Code"));
+        args.putString("Ket", getIntent().getExtras().getString("Ket"));
+        detailFragment.setArguments(args);
+        loadFragment(detailFragment);
+
+        reviewFragment=new ReviewFragment();
+        Bundle args2 = new Bundle();
+        args2.putString("Review", getIntent().getExtras().getString("Review"));
+        reviewFragment.setArguments(args2);
         BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
         // beri listener pada saat item/menu bottomnavigation terpilih
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
@@ -40,10 +53,10 @@ public class DetailActivity extends AppCompatActivity implements BottomNavigatio
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
             case R.id.action_detail:
-                fragment = new DetailFragment();
+                fragment = detailFragment;
                 break;
             case R.id.action_review:
-                fragment = new ReviewFragment();
+                fragment = reviewFragment;
                 break;
         }
         return loadFragment(fragment);
