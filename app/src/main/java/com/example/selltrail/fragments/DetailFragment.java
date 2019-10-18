@@ -50,6 +50,8 @@ ImageView detailgambar;
             detailgambar.setBackgroundResource(R.drawable.husqy);
         }else if(code.equals("6")) {
             detailgambar.setBackgroundResource(R.drawable.fizz);
+        }else if(code.equals("7")) {
+            detailgambar.setBackgroundResource(R.drawable.klx);
         }
 
             return view;

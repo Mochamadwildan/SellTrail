@@ -64,7 +64,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan" />
             </LinearLayout>
 
         </LinearLayout>
@@ -118,7 +118,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -172,7 +172,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -225,7 +225,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan" />
 
             </LinearLayout>
 
@@ -280,7 +280,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan" />
 
             </LinearLayout>
 
@@ -335,7 +335,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat lengkap taat pajak dan mulus tanpa minus" />
+                    android:text="Motor tangguh kuat segala medan" />
             </LinearLayout>
 
         </LinearLayout>
@@ -389,11 +389,63 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surat-surat hilang (bodong) Minus Skok belakang pakek skok depan" />
+                    android:text="Motor tangguh kuat segala medan" />
             </LinearLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:onClick="Detail7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <!--kotak pertama untuk gambar-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
 
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    app:srcCompat="@drawable/klx" />
+            </LinearLayout>
+            <!--        kotak ke 2 untuk penjelasan barang-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="KLX 150 BF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.34.000.000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tahun 2019" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Motor tangguh kuat segala medan"/>
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
