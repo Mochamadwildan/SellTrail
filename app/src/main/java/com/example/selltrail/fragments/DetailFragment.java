@@ -17,7 +17,7 @@ import com.example.selltrail.R;
  * A simple {@link Fragment} subclass.
  */
 public class DetailFragment extends Fragment {
-TextView judul,deskripsi;
+TextView judul,deskripsi,harga;
 ImageView detailgambar;
 
     public DetailFragment() {
@@ -32,7 +32,11 @@ ImageView detailgambar;
         View view= inflater.inflate(R.layout.fragment_detail, container, false);
         judul = view.findViewById(R.id.judul);
         judul.setText(getArguments().getString("Judul"));
+
+        harga = view.findViewById(R.id.harga);
+        harga.setText(getArguments().getString("harga"));
         deskripsi = view.findViewById(R.id.deskripsi);
+
         deskripsi.setText(getArguments().getString("Ket"));
         detailgambar= view.findViewById(R.id.detailgambar);
         String code = getArguments().getString("Code");

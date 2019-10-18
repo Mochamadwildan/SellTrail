@@ -25,6 +25,7 @@ public class DetailActivity extends AppCompatActivity implements BottomNavigatio
         args.putString("Judul", getIntent().getExtras().getString("Judul"));
         args.putString("Code", getIntent().getExtras().getString("Code"));
         args.putString("Ket", getIntent().getExtras().getString("Ket"));
+        args.putString("harga", getIntent().getExtras().getString("harga"));
         detailFragment.setArguments(args);
         loadFragment(detailFragment);
 

@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void Detail(View view) {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "HONDA CRF 250CC");
         intent.putExtra("Code", "0");
+        intent.putExtra("harga","Rp.80.000.000");
         intent.putExtra("Ket", "Harga motor trail CRF pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "HONDA CRF 250CC\n"+
                         "Dilengkapi Panel Indikator Digital yang Tampak Begitu Modern\n" +
@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "KTM EXc-F 250CC");
         intent.putExtra("Code", "1");
+        intent.putExtra("harga","Rp.110.000.000");
         intent.putExtra("Ket", "Harga motor trail KTM pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "KTM EXc-F 250CC\n"+
                 "KTM 250 EXC-F Six Days terbaru ini diklaim memiliki bobot yang lebih ringan dibanding sebelumnya." +
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "YAMAHA YZ 250CC");
         intent.putExtra("Code", "2");
+        intent.putExtra("harga","Rp.90.000.000");
         intent.putExtra("Ket", "Harga motor trail YZ pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "YAMAHA YZ 250CC\n+" +
                 "Yamaha mengklaim rpm-nya mampu tembus 10.000 rpm dengan mudah.Blok silindernya menggunakan tipe ceramic-plated cylinder" +
@@ -74,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "KAWASAKI KX 250CC");
         intent.putExtra("Code", "3");
+        intent.putExtra("harga","Rp.100.000.000");
         intent.putExtra("Ket", "Harga motor trail KX pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "KX 250 F\n + " +
                 "KX juga tidak dijual bebas di semua diler Kawasaki, melainkan hanya di diler-diler PT Greentech Cakrawala Motorindo yang merupakan rekanan" +
@@ -87,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "SUZUKI RMZ 250CC");
         intent.putExtra("Code", "4");
+        intent.putExtra("harga","Rp.70.000.000");
         intent.putExtra("Ket", "Harga motor trail RMZ pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "SUZUKI RMZ 250\n" +
                         "Mesin\n" +
@@ -104,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "HUSQVARNA 250CC");
         intent.putExtra("Code", "5");
+        intent.putExtra("harga","Rp.120.000.000");
         intent.putExtra("Ket", "Harga motor trail HUSQVARNA pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "HUSQVARNA 250CC\n"+
                         "Di website resmi Husqvarna Motorcycle, informasi mengenai power Husqvarna TE 250 memang nggak tersedia. " +
@@ -124,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "ODONG-ODONG FIZZ BALAP");
         intent.putExtra("Code", "6");
+        intent.putExtra("harga","Rp.1.000.000");
         intent.putExtra("Ket", "Harga motor trail ODONG-ODONG FIZZ pada model ini memang dibanderol dengan harga yang cukup murah");
         intent.putExtra("Review", "ODONG-ODONG FIZZ BALAP\n" +
                 "•\tShockbreaker depan\n" +
@@ -145,6 +151,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("Judul", "KLX 150 BF");
         intent.putExtra("Code", "7");
+        intent.putExtra("harga","Rp.34.000.000");
         intent.putExtra("Ket", "Harga motor trail KLX pada model ini memang dibanderol dengan harga yang cukup mahal");
         intent.putExtra("Review", "KLX 150 BF\n"+
                         "Dilengkapi Panel Indikator Minimalis dengan Kombinasi Instrumen Analog dan Digital\n" +

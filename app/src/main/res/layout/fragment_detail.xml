@@ -38,6 +38,15 @@
                 android:gravity="center"
                 />
             <TextView
+                android:id="@+id/harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/deskripsi"
